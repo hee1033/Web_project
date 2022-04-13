@@ -1,0 +1,80 @@
+/* 노멀라이징 */
+*{
+    margin: 0;
+    padding: 0;
+  }
+  ul , li {
+    list-style: none ;
+  }
+  a{
+    color: inherit;
+    text-decoration: none ;
+  }
+  /* 라이브러리 */
+  .cell{
+    float: left;
+  }
+  .row::after{
+    clear: both ;
+    content: "";
+    display: block;
+  }
+  /* 스타일 */
+  .wrap{
+    width: 300px;
+    background-color: #ddd ;
+    margin: 0 auto;
+  }
+  .id_input{
+    display: block ;
+    border: 1px solid black ;
+    outline: 0 ;
+    width: 300px;
+    height: 40px;
+    padding: 10px ;
+    box-sizing: border-box ;
+  }
+  .id_input:focus{
+    outline: 2px solid red ;
+    border: 1px solid red ;
+  }
+  .pw_input{
+    display: block ;
+    border: 1px solid black ;
+    outline: 0 ;
+    width: 300px;
+    height: 40px;
+    padding: 10px ;
+    box-sizing: border-box ;
+    margin-top: 20px ;
+  }
+  .text_input{
+    display: block ;
+    resize: none ;
+    width: 300px ;
+    height: 300px ;
+    padding: 10px ;
+    outline: none ;
+    box-sizing: border-box ;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+  }
+  .sub_btn{
+    display: block ;
+    width: 150px;
+    background-color: #aaa ;
+    border: 0 ;
+    height: 30px ;
+  }
+  .clo_btn{
+    display: block ;
+    width: 150px;
+    background-color: #aaa ;
+    border: 0 ;
+    height: 30px ;
+  }
+  
+  .test{
+    height: 300px;
+    background-color: skyblue ;
+  }
